@@ -1,0 +1,5 @@
+--delft-blue: #182c61ff;
+--mauve: #c2aff0ff;
+--tropical-indigo: #9191e9ff;
+--ebony: #4a5240ff;
+--tea-green: #c1f7dcff;

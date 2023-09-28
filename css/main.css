@@ -1,0 +1,62 @@
+/* 
+    ----------------------------------------------------------
+    VARIÁVEIS E CLASSES REAPROVEITÁVEIS 
+    ----------------------------------------------------------
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;500&display=swap');
+    /* 
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    */
+:root{
+    /* COLORS */
+    --primary-delft-blue: #182c61ff;
+    --secondary-mauve: #c2aff0ff;
+    --secondary-tropical-indigo: #9191e9ff;
+    --secondary-ebony: #4a5240ff;
+    --secondary-tea-green: #c1f7dcff;
+    --secondary-gray: #818080;
+    /* FONTS SIZE */
+    --heading-level-1-2: 2.6rem;
+    --heading-level-3: 2.0rem;
+    --heading-level-4: 1.6rem;
+    --heading-level-5: 1.2rem;
+    --heading-level-6: 1.1rem;
+}
+.paragraph{
+    font-size: var(--heading-level-6);
+    color: var(--secondary-gray);
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.6rem;
+}
+.layoutMargin{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ---------------------------------------------------------- */
+/* 
+    ----------------------------------------------------------
+    CONFIGURAÇÕES GERAIS - INÍCIO 
+    ----------------------------------------------------------
+*/
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background: url(/Images/Game\ Store\ -\ FUNDO.png) no-repeat;
+    background-size: cover;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+/* 
+    ----------------------------------------------------------
+    CONFIGURAÇÕES GERAIS - FIM 
+    ----------------------------------------------------------
+*/
