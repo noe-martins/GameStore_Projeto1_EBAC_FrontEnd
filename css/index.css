@@ -1,0 +1,133 @@
+/* 
+    ----------------------------------------------------------
+    SECTION "showcase" - INÍCIO 
+    ----------------------------------------------------------
+*/
+.layoutMargin-showcase{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(/Images/Game\ Store\ -\ Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.showcase-front{
+    display: flex;
+    gap: 20px;
+    height: 70%;
+    width: 40%;
+    padding: 20px;
+    margin-left: 30px;
+}
+.showcase-front img{
+    cursor: pointer;
+    transition: height .2s, box-shadow .2s;
+}
+.showcase-front img:hover{
+    box-shadow: 2px -2px 20px var(--secondary-tea-green);
+    height: 96%;
+}
+.showcase-front img,
+.showcase-front-information{
+    height: 95%;
+}
+.showcase-front-information{
+    padding: 0 20px;
+}
+.showcase-front-information > h1 a,
+.showcase-front-information h1{
+    font-size: var(--heading-level-1-2);
+    color: var(--secondary-tea-green);
+    text-shadow: 2px 2px 10px black;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.showcase-front-information h2{
+    font-size: var(--heading-level-5);
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+.showcase-front-information p{
+    font-size: var(--heading-level-6);
+    color: #fff;
+    margin: 10px 0;
+    line-height: 140%;
+}
+.showcase-price a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--secondary-tropical-indigo);
+    font-size: var(--heading-level-5);
+    transition: color .2s;
+}
+.showcase-price a:hover{
+    color: #fff;
+}
+/* 
+    ----------------------------------------------------------
+    SECTION "showcase" - FIM 
+    ----------------------------------------------------------
+*/
+/* 
+    ----------------------------------------------------------
+    SECTION "games" - INÍCIO 
+    ----------------------------------------------------------
+*/
+.layoutMargin-games{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+}
+.games-separator{
+    background-color: var(--primary-delft-blue);
+    height: 30px;
+    color: var(--primary-delft-blue);
+}
+.games-options{
+    display: flex;
+    justify-content: space-around;
+    height: 75%;
+    margin-top: 30px;
+}
+.games-options article{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow .2s;
+}
+.games-options article:hover{
+    box-shadow: 2px 2px 20px 10px var(--secondary-tropical-indigo);
+}
+.games-options img{
+    height: 300px;
+    width: 100%;
+}
+.games-options article h2{
+    font-size: var(--heading-level-5);
+    color: var(--secondary-tropical-indigo);
+}
+.games-options article a{
+    text-decoration: none;
+}
+.games-options article a:nth-child(2),
+.games-options article h4,
+.games-options article h3{
+    margin-left: 2px;
+}
+.games-options article h4{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--secondary-ebony);
+}
+.games-options article h3{
+    font-size: var(--heading-level-5);
+}
+/* 
+    ----------------------------------------------------------
+    SECTION "games" - FIM 
+    ----------------------------------------------------------
+*/
