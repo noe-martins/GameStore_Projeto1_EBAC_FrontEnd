@@ -1,0 +1,48 @@
+.layoutMargin-about{
+    background-color: #e5e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+/* 
+    ----------------------------------------------------------
+    SECTION 1 
+    ----------------------------------------------------------
+*/
+/* PRINCIPAL */
+.about-header{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* SUB 1 */
+.about-header-title{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-header-title h4{
+    font-size: var(--heading-level-4);
+}
+/* SUB 2 */
+.about-header-logo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* 
+    ----------------------------------------------------------
+    SECTION 2 
+    ----------------------------------------------------------
+*/
+/* PRINCIPAL */
+.about-body{
+    width: 90%;
+}
+/* SUB 1 */
+.paragraph-about-body{
+    /* text-align: center; */
+}
