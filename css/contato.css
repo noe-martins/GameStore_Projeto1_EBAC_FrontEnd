@@ -1,0 +1,101 @@
+.layoutMargin-contact{
+    background-color: #e5e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+/* 
+    ----------------------------------------------------------
+    SECTION 1 
+    ----------------------------------------------------------
+*/
+/* PRINCIPAL */
+.contact-header{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* SUB 1 */
+.contact-header-title{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-header-title h4{
+    font-size: var(--heading-level-4);
+}
+/* 
+    ----------------------------------------------------------
+    SECTION 2 
+    ----------------------------------------------------------
+*/
+/* SUB 1 */
+.contact-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 30px 0;
+}
+.contact-body-location{
+    outline: 2px solid #8a898937;
+    padding: 7px;
+    width: 50%;
+    height: 300px;
+}
+.contact-body-location iframe{
+    width: 100%;
+    height: 100%;
+}
+/* SUB 2 */
+.contact-body-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+.contact-body-form label h3{
+    font-size: var(--heading-level-5);
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.contact-body-form label div textarea{
+    width: 100%;
+}
+.contact-body-form label div input{
+    padding: 10px 0 10px 10px;
+    width: 98%;
+}
+.contact-body-form button{
+    width: 20%;
+    height: 100%;
+    padding: 10px 0;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: var(--secondary-tropical-indigo);
+    border: 1px solid rgb(108, 108, 227);
+    box-shadow: inset 0 1px rgb(82, 82, 223);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: .2px;
+    transition: all .2s;
+}
+.contact-body-form button:hover{
+    background-color: var(--secondary-tea-green);
+    border: 1px solid rgb(150, 245, 197);
+    box-shadow: inset 0 1px rgb(81, 246, 163);
+    color: var(--primary-delft-blue);
+}
+.form-name,
+.form-email{
+    flex-grow: 1;
+}
+.form-comment textarea{
+    resize: none;
+}
