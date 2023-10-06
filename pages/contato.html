@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/components/menu.css">
     <link rel="stylesheet" href="/css/components/footer.css">
+    <link rel="stylesheet" href="/css/contato.css">
 </head>
 <body>
     <header class="layoutMargin layoutMargin-menu">
@@ -35,9 +36,52 @@
             </ul>
         </nav>
     </header>
-    <!-- 
-        LOCAL PARA CONTEÚDOS 
-    -->
+    <main class="layoutMargin layoutMargin-contact">
+        <section class="contact-header">
+            <div class="contact-header-title">
+                <h4>Entre em contato conosco</h4>
+                <p class="paragraph paragraph-contact-header">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sapiente culpa est voluptatem doloribus quaerat natus 
+                    et dolor neque iusto eum?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Sapiente culpa est voluptatem doloribus quaerat natus 
+                    et dolor neque iusto eum?
+                </p>
+            </div>
+        </section>
+        <section class="contact-body">
+            <div class="contact-body-location">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1753.8245837171185!2d-52.82216776136341!3d-28.459990393939837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd492529587735%3A0xc575c73a448bbd27!2sAv.%20Alto%20Jacu%C3%AD%20-%20Centro%2C%20N%C3%A3o-Me-Toque%20-%20RS%2C%2099470-000!5e0!3m2!1spt-BR!2sbr!4v1695222666486!5m2!1spt-BR!2sbr" 
+                    width="1270" height="520" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <form class="contact-body-form" action="#">
+                <label class="form-name">
+                    <h3>Nome</h3>
+                    <div>
+                        <input type="text" name="#name" required>
+                    </div>
+                </label>
+                <label class="form-email">
+                    <h3>Email</h3>
+                    <div>
+                        <input type="email" name="#email" required>
+                    </div>
+                </label>
+                <label class="form-comment">
+                    <h3>Comentário</h3>
+                    <div>
+                        <textarea name="#comment" cols="30" rows="9" maxlength="300" required></textarea>
+                    </div>
+                </label>
+                <div class="form-button">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
     <footer class="layoutMargin layoutMargin-footer">
         <section class="footer-links">
             <article class="links-services">
